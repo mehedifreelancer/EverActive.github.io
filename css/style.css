@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bar {
+    height: 2px;
+    max-width: 50%;
+    background: orange;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+#badgeDiv {
+    background: black;
+    padding: 5px;
+}
+
+#badgeDiv img {
+    height: 110px;
+    width: 150px;
+    margin: auto;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 80px;
+    margin-top: -15px;
+}
+
+.navbar-nav {
+    float: none;
+    text-align: center;
+
+}
+
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #040d16;
+    background-color: #040d16;
+
+
+}
+
+.navbar-default {
+    background-color: #040d16;
+    border-color: #040d16;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-brand {
+    background-color: #040d16;
+    ;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #b76502;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #b76502;
+    background-color: transparent;
+}
+
+.carousel {}
+
+#subBack {
+    background-image: url(../img/back2.jpg);
+    height: 650px;
+    padding: 100px 0px;
+    margin: 200px 0px;
+    background-attachment: fixed;
+    background-position: center center;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* #subBack img {
+    height: 180px;
+    width: 200px;
+    margin: auto;
+}*/
+
+#subBack h3 {
+    color: white;
+    border: 2px solid orange;
+    max-width: 480px;
+    padding: 50px 50px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#subBack p {
+    color: white;
+    font-size: 18px;
+    max-width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#advertiseOne {}
+
+#advertiseOne h4 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+
+}
+
+
+.segmentImage img {
+    padding-top: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.minImage img {
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    position: relative;
+    min-height: -27px;
+    padding-right: -5px;
+    padding-left: 15px;
+}
+
+.segmentImage p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 11px
+}
+
+.advertiseText {
+    color: black;
+    font-size: 20px;
+    padding: 25px 0px;
+
+
+}
+
+.sporcsDiv {
+    background: black;
+    padding: 10px 0px;
+}
+
+#sporcks img {
+    margin: auto;
+
+}
+
+.sporcksMinImg img {
+    padding: 15px 0px
+}
+
+.sporcksText {
+    font-size: 20px;
+    padding: 30px 0px;
+}
+
+.sporcksText li {
+    font-weight: bold;
+}
+
+#footer {
+    background: url(../img/8.png);
+    height: 300px;
+}
+
+.overLay {
+    position: relative;
+    background: rgba(4, 13, 22, .9);
+    height: 300px;
+}
+
+.footerBack {
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center center;
+
+}
+
+#footer h3 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.contactDiv p {
+    color: white;
+    font-size: 18px;
+    text-align: center
+}
+
+.connect {
+    background: #040d16;
+}
+
+.imp {
+    font-weight: bold;
+}
+
+.connect p {
+    font-size: 15px;
+    color: white;
+}
+
+.subscription p {
+    margin: 12px 0px;
+}
+
+.subscription p {
+    font-weight: bold;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #ef6a14;
+    border-color: #ef6a14;
+    margin-left: -25px
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: white;
+    background-color: #132e4c;
+    background-image: none;
+    border: 1px solid #132e4c;
+    border-radius: 4px;
+}
+
+.social p {
+    font-weight: bold;
+    margin-top: 10px
+}
+
+.social i {
+    background: #132e4c;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 9px;
+    color: #040d16;
+    font-size: 15px;
+    color: white;
+    -webkit-transition: .5s;
+    transition: .5s;
+    margin-top: -2px;
+
+}
+
+.social i:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.overLayarea {
+    position: relative;
+    height: 250px;
+    width: 250px;
+
+}
+
+.overLayTwo {
+    position: absolute;
+    background: rgba(0, 0, 0, .3);
+    height: 250px;
+    width: 250px
+}
+
+
+
+#badgeDiv {
+    background: #030d16;
+}
+
+.view {
+    margin: 50px;
+}
+
+.view p {
+    margin-top: 50px;
+}
